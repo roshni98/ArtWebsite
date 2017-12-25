@@ -7,6 +7,14 @@ h1 {
 .uppercase {
   text-transform: uppercase;
 }
+
+.introduction {
+  height: 1000px;
+}
+
+.aboutme {
+  height: 100px;
+}
 #website-title {
   font-family: cursive;
   text-transform: capitalize;
