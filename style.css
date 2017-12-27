@@ -37,10 +37,9 @@ h1 {
       backdrop-filter: grayscale() blur(30px); /* Chrome and Opera */
       background-color: rgba(255, 255, 255, 0.5);
 }
-.introduction,.aboutme,.contactme {
-  text-align: center;
-}
-nav a{
+
+
+/*nav a{
   list-style: none;
   margin: 0 2px;
   padding: 0;
@@ -54,7 +53,7 @@ nav ul{
  nav li {
    float: left;
   /* mlist-style: none;argin-top: 50%; */
-}
+
 .container{
   background-image:url(/Users/roshnishah/Downloads/221D2666-0ECA-4C20-B0ED-6C87970BAD96.JPG);
   width: 100%;
@@ -86,6 +85,10 @@ nav ul{
 }
 
 .introduction, .aboutme , .contactme{
-  background-color: yellow;
+  background-color: gray;
 
+}
+.tabs{
+  text-align: center;
+  font-size: 18px;
 }
