@@ -1,94 +1,122 @@
-#website-title {
-  font-family: cursive;
-  text-transform: capitalize;
-  font-size: 50pt
-}
-header {
+/* header {
   top:0;
   width: 100%;
   position: fixed;
   text-align: center;
-  color: white;
-  transition: .4s;
-  -webkit-backdrop-filter: grayscale() blur(10px); /* Safari 9+ */
-    backdrop-filter: grayscale() blur(10px); /* Chrome and Opera */
-    background: rgba(255, 255, 255, 0.4);
+  color:white;
 }
+*/
+/*
+First divider page
+*/
 
-header:hover {
-  background: rgba(255,255,255,0.8);
-  color: #000;
-}
-body{
-  background: linear-gradient(pink,white);
-  background-size: cover;
-  margin:0;
-}
-
-p {
-  font-family: Arial;
-  font-size:18px;
-}
-
-h1 {
-  color: maroon;
-  text-align:center;
-  -webkit-backdrop-filter: grayscale() blur(10px); /* Safari 9+ */
-      backdrop-filter: grayscale() blur(30px); /* Chrome and Opera */
-      background-color: rgba(255, 255, 255, 0.5);
-}
-
-
-/*nav a{
-  list-style: none;
-  margin: 0 2px;
-  padding: 0;
-  justify-content: space-around;
-}
-nav ul{
-  list-style: none;
-  margin-top:auto;
-  margin-bottom:auto;
-}
- nav li {
-   float: left;
-  /* mlist-style: none;argin-top: 50%; */
-
-.container{
-  background-image:url(/Users/roshnishah/Downloads/221D2666-0ECA-4C20-B0ED-6C87970BAD96.JPG);
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-
-
-.title-uppercase{
+.firstpage h1{
   position: absolute;
-  width: 100%;
-  bottom: 0;
-  margin: 0 auto;
+   font-size: 68px;
+   width: 800px;
+   text-align: center;
+   top: calc(50vh - 110px);
+   left: calc(50vw - 400px);
+}
+
+.firstpage h3{
   text-align: center;
-}
-
-.introduction {
-  height: 1000px;
-}
-
-.aboutme {
-  height: 100px;
 
 }
-.introduction {
-  /* margin-top: 20%; */
+.Whatpage{
+  height: 70vh
 }
 
-.introduction, .aboutme , .contactme{
-  background-color: gray;
+.Whatpage h1{
+  position: absolute;
+    font-size: 30px;
+    font-family: "Tenor Sans", sans-serif;
+    width: 900px;
+    text-align: center;
+    bottom:-33%;
+    left:20%;
 
 }
-.tabs{
+.Whatpage p{
+  position: absolute;
   text-align: center;
-  font-size: 18px;
+
+  bottom: -41%;
+  left:41%;
+  width:20em;
+  height:50px;
+
+}
+#self{
+  position: absolute; left:21%; bottom: -59% ;
+  transform:rotate(90deg);
+
+  border:3px solid #73AD21;
+
+}
+
+.Art{
+  background-color: #FFCCFF;
+  height: 100vh;
+  max-height:200vh;
+}
+
+.Art h1{
+  text-align: center;
+
+}
+.pic{
+	width:400px;
+	height:300px;
+	background: url("/Users/roshnishah/Downloads/IMG_9582.jpg") ;
+}
+.pic2{
+width:400px;
+height:300px;
+background: url("/Users/roshnishah/Downloads/IMG_9581.jpg") ;
+}
+.text{
+	width:340px;
+	height:217px;
+	background:#FFF;
+	opacity:0;
+}
+.text2{
+	width:340px;
+	height:217px;
+	background:#FFF;
+	opacity:0;
+}
+.pic:hover .text
+{
+	opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+	padding:30px;
+}
+
+
+
+.contactme{
+  background-color: maroon;
+  height: 80vh;
+  max-height: 200px;
+}
+#vsco{
+      position: absolute;
+      top: 250vh;
+      left:70vh;
+}
+#pinterest{
+      position: absolute;
+      top: 250vh;
+      left: 85vh;
+}
+#linkedin{
+      position: absolute;
+      top: 250vh;
+      left:101vh;
 }
