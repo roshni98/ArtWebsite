@@ -10,90 +10,93 @@
 First divider page
 */
 
+
 .firstpage h1{
   position: absolute;
    font-size: 68px;
    width: 800px;
    text-align: center;
-   top: calc(50vh - 110px);
-   left: calc(50vw - 400px);
+   padding-top: 20%;
+}
+.firstpage img{
+  width: 100%;
+  height:30%;
 }
 
 .firstpage h3{
   text-align: center;
-
+  z-index: 10;
 }
-.Whatpage{
-  height: 70vh
+.firstpage a{
+  z-index: 20;
+}
+.contactme{
+  z-index: 20;
 }
 
 .Whatpage h1{
-  position: absolute;
-    font-size: 30px;
-    font-family: "Tenor Sans", sans-serif;
-    width: 900px;
+   padding-top:-2%;
     text-align: center;
-    bottom:-33%;
-    left:20%;
-
 }
-.Whatpage p{
-  position: absolute;
-  text-align: center;
 
-  bottom: -41%;
-  left:41%;
-  width:20em;
-  height:50px;
-
-}
 #self{
-  position: absolute; left:21%; bottom: -59% ;
   transform:rotate(90deg);
-
-  border:3px solid #73AD21;
-
 }
 
 .Art{
-  background-color: #FFCCFF;
+  background: url("http://xinature.com/wp-content/uploads/2016/10/sky-clouds-dusk-painted-picture-high-resolution.jpg");
+  /* background: url("https://www.xmple.com/wallpaper/gradient-blue-linear-purple-1920x1080-c2-00bfff-4b0082-a-270-f-14.svg"); */
+   background-repeat:no-repeat; */
+/* background-color: #733080; */
+/* #F4BAC8; */
+/* #FFCCFF; */
   height: 100vh;
   max-height:200vh;
+
 }
 
 .Art h1{
+  padding-top: 2%;
   text-align: center;
-
-}
-.pic{
-	width:400px;
-	height:300px;
-	background: url("https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/IMG_9581.jpg") ;
-}
-.text{
-	width:340px;
-	height:217px;
-	background:#FFF;
-	opacity:0;
-}
-.pic:hover .text
-{
-	opacity:0.6;
-	text-align:justify;
-	color:#000000;
-	font-size:20px;
-	font-weight:700;
-	font-family:"Times New Roman", Times, serif;
-	padding:30px;
+  color: white;
 }
 
+img{
+  align-content: center;
+}
 
-/* .contactme{
-  background-color: maroon;
+#galaxy{
+  border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    height: 200px;
+    width: 200px;
+    padding: 5%;
+    /* width: 200px; /* Set a small width */
+}
+#galaxy:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.row{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+ .contactme{
+  background-color: #F4BAC8;
   height: 80vh;
   max-height: 200px;
 }
-#vsco{
+.contactme .list{
+  padding-left: 35%;
+}
+.mid-div{
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+.list{
+  padding-left: 20%;
+}
+
+/*#vsco{
       position: absolute;
       top: 250vh;
       left:70vh;
@@ -108,4 +111,4 @@ First divider page
       top: 250vh;
       left:101vh;
 }
-/*
+*/

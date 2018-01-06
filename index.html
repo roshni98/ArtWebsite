@@ -2,70 +2,114 @@
 <html>
 <head>
   <title> Roshni Shah</title>
-   <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.js"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                  event.preventDefault();
+                  $(this).ekkoLightbox();
+              });
+  </script>
 </head>
 
 
 <body>
 <div class="firstpage">
-   <h3><a href = "#whatIdo">What I do</a> <a href = "#projectsjump">Projects</a> <a href = "#contactjump">Contact</a></h3>
-  <img src= "https://i.imgur.com/SvnuN4M.png" width=100% height=auto id="header">
-  <h1> Roshni Shah </h1>
-
+  <div class="row justify-content-center mid-div">
+    <div class="col-md-6">
+      <div class="row list">
+       <h3><a href = "#whatIdo" class="col-sm-2">What I do</a>
+        <a href = "#projectsjump" class="col-sm-2">Projects</a>
+        <a href = "#contactjump" class="col-sm-2">Contact</a></h3>
+      </div>
+    </div>
+    <img src= "https://i.imgur.com/SvnuN4M.png" width=100% height=auto id="header">
+    <h1> Roshni Shah </h1>
+  </div>
 </div>
-
 <div class= "Whatpage">
-    <a id = "whatIdo">
-    <h1> What I do </h1>
-    <img src= "https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/IMG_9593.JPG" width=300px height=200px id="self">
-    <p> Hello, I'm Roshni and I study Computer Engineering & Computer Science at Rutgers University. Previously I have done research at Rutgers with a Professor and also was a Research and Developer at WINLAB. Right now I am working at Makerspace where I help other creative minds use the laser cutter, 3D print, use the woodshop and the textiles.
+    <a id = "whatIdo"></a>
+  <h1> About me </h1>
+  <div class="row justify-content-center mid-div">
+      <div class="col-md-8">
+          <div class="row">
+              <a href="https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/IMG_9593.JPG" class="col-sm-4">
+                  <img src="https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/IMG_9593.JPG" class="img-fluid">
+              </a>
+              <p class="col-sm-8"> Hello, I'm Roshni and I study Computer Engineering & Computer Science at Rutgers University.
+                  Previously I have done research at Rutgers with a Professor and also was a Research and Developer at WINLAB.
+                  Right now I am working at Makerspace where I help other creative minds use the laser cutter, 3D print, use the woodshop and the textiles.
+              </p>
+          </div>
+      </div>
+  </div>
 </div>
-
-
-
-<!--<div class="tabs" id="tabs">
-  <nav>
-    <ul>
-      <a href="#introduction">Introduction</a>
-      <a href="#aboutme">About the Website</a>
-      <a href="#contactme">Contact Me</a>
-    </ul>
-  </nav>
-</div>
--->
-
 
 <!-- Gallery -->
 <div class="Art">
-  <a id="projectsjump">
+  <a id="projectsjump"></a>
   <h1> Projects </h1>
-<div class= "pic">
-  <div class="text">
-    HELLO THIS IS A TEST FOR THE HOVER OVER AN IMAGE
+  <div class="row justify-content-center mid-div">
+    <div class="col-md-8">
+        <div class="row">
+          <a href="/Users/roshnishah/ArtWebsite/images/IMG_9581.jpg" data-toggle="lightbox"  data-gallery="example-gallery" class="col-sm-4">
+          <img src="/Users/roshnishah/ArtWebsite/images/IMG_9581.jpg" id="galaxy"  class="img-fluid">
+          </a>
+
+            <a href="/Users/roshnishah/Downloads/IMG_9580.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+            <img src="/Users/roshnishah/Downloads/IMG_9580.jpg" id="galaxy"  class="img-fluid">
+            </a>
+
+            <a href="/Users/roshnishah/Downloads/IMG_8758.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+            <img src="/Users/roshnishah/Downloads/IMG_8758.jpg" id="galaxy"  class="img-fluid">
+            </a>
+        </div>
+        <div class="row">
+          <a href="/Users/roshnishah/ArtWebsite/images/IMG_9582.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="/Users/roshnishah/ArtWebsite/images/IMG_9582.jpg" id="galaxy"  class="img-fluid">
+          </a>
+
+          <a href="/Users/roshnishah/ArtWebsite/images/IMG_9582.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="/Users/roshnishah/ArtWebsite/images/IMG_9582.jpg" id="galaxy"  class="img-fluid">
+          </a>
+
+          <a href="/Users/roshnishah/Downloads/IMG_96032.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+          <img src="/Users/roshnishah/Downloads/IMG_96032.jpg" id="galaxy"  class="img-fluid">
+          </a>
+        </div>
+    </div>
   </div>
 </div>
+
+<div class= "contactme">
+  <a id="contactjump">
+  <div class="row justify-content-center mid-div">
+    <div class="col-md-6">
+      <div class="row list">
+        <a href="http://vsco.co/cuteblue318/images/1"target = "_blank" id = "vsco" class="col-sm-2">
+          <img src= "https://assets.materialup.com/uploads/e5d82e22-3b65-4398-b287-bccc3a0dfa9a/preview.jpg"height=50px width=50px>
+        </a>
+
+        <a href="https://www.pinterest.com/minnniemice18/"target = "_blank" id = "pinterest" class="col-sm-2">
+        <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pinterest_Shiny_Icon.svg/500px-Pinterest_Shiny_Icon.svg.png"height=50px width=50px>
+        </a>
+
+        <a href = "https://www.linkedin.com/in/roshni-shah-919068127/" target = "_blank" id = "linkedin" class="col-sm-2">
+        <img src = "http://frog-dog.com/wp-content/uploads/2015/05/official-linkedin-logo-tile.png" height=50px width=50px>
+       </a>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
- <!--<div class= "contactme">
-    <a id="contactjump">
-
-   <h1> Contact Me</h1> -->
-
-  <!--  <a href="http://vsco.co/cuteblue318/images/1"target = "_blank" id = "vsco">
-    <img src= "https://assets.materialup.com/uploads/e5d82e22-3b65-4398-b287-bccc3a0dfa9a/preview.jpg"height=50px width=50px>
-    </a>
-    <a href="https://www.pinterest.com/minnniemice18/"target = "_blank" id = "pinterest">
-    <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pinterest_Shiny_Icon.svg/500px-Pinterest_Shiny_Icon.svg.png"height=50px width=50px>
-    </a>
-    <a href = "https://www.linkedin.com/in/roshni-shah-919068127/" target = "_blank" id = "linkedin">
-    <img src = "http://frog-dog.com/wp-content/uploads/2015/05/official-linkedin-logo-tile.png" height=50px width=50px> </a>
-
-  </div>
-
--->
 </body>
 
 </html>
