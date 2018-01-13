@@ -113,6 +113,18 @@ img{
   padding-left: 10%;
   padding-right: -20%;
 }
+.case1{
+  background-color: #e7c2d9;
+}
+.case2{
+  background-color: #8183b5;
+}
+
+.case3{
+  background-color: #5e78b0;
+}
+
+
 /*#vsco{
       position: absolute;
       top: 250vh;
