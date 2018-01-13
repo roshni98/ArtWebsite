@@ -17,6 +17,8 @@ First divider page
    width: 800px;
    text-align: center;
    padding-top: 20%;
+   padding-left: 4%;
+   padding-bottom: 30%;
 }
 .firstpage img{
   width: 100%;
@@ -44,7 +46,8 @@ First divider page
 }
 
 .Art{
-  background: url("https://s3.amazonaws.com/123rf-chrome/images/48244404_xl.jpg");
+  background: url("https://images.unsplash.com/photo-1468186402854-9a641fd7a7c4?ixlib=rb-0.3.5&q=99&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&s=0321db1f54fe70cfc7c1d0332f95dd16");
+  /* https://s3.amazonaws.com/123rf-chrome/images/48244404_xl.jpg"); */
   /* background: url("https://www.xmple.com/wallpaper/gradient-blue-linear-purple-1920x1080-c2-00bfff-4b0082-a-270-f-14.svg"); */
    background-repeat:no-repeat; */
 /* background-color: #733080; */
@@ -64,7 +67,11 @@ First divider page
 img{
   align-content: center;
 }
-
+.row {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
 #galaxy{
   border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
@@ -80,6 +87,9 @@ img{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.col {
+  align-content: center;
+}
  .contactme{
   background-color: #F4BAC8;
   height: 80vh;
@@ -92,10 +102,17 @@ img{
   margin-top: 2%;
   margin-bottom:2%;
 }
-.list{
-  padding-left: 20%;
+.proj-div{
+  margin-top: 2%;
 }
 
+.list{
+  padding-left: 25%;
+}
+.gallery {
+  padding-left: 10%;
+  padding-right: -20%;
+}
 /*#vsco{
       position: absolute;
       top: 250vh;
