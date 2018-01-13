@@ -114,14 +114,16 @@ img{
   padding-right: -20%;
 }
 .case1{
-  background-color: #e7c2d9;
+  background: url("https://stylewhack.com/wp-content/uploads/2017/01/07b37d9e8af59caf15b0f8e1b49da368.jpg");
 }
 .case2{
-  background-color: #8183b5;
+  background: url("https://wallpaperstock.net/wallpapers/thumbs1/51439hd.jpg");
+  /* color: #8183b5; */
 }
 
 .case3{
-  background-color: #5e78b0;
+  background: url("https://assets.teenvogue.com/photos/57bf3d739b60a7db09380cb3/master/pass/whatsapp-phone-number.jpg");
+  /* #5e78b0; */
 }
 
 
