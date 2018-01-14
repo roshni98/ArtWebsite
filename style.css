@@ -20,6 +20,16 @@ First divider page
    padding-left: 4%;
    padding-bottom: 30%;
 }
+.firstpage h4{
+  position: absolute;
+  font-size: 30px;
+  width: 800px;
+  text-align: center;
+  padding-top: 32%;
+  padding-left: 4%;
+  padding-bottom: 30%;
+}
+
 .firstpage img{
   width: 100%;
   height:30%;
@@ -55,7 +65,7 @@ First divider page
 /* #FFCCFF; */
   height: 100vh;
   max-height:200vh;
-
+    padding-left:47px;
 }
 
 .Art h1{
