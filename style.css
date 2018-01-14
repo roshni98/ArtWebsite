@@ -66,6 +66,7 @@ First divider page
 
 img{
   align-content: center;
+  image-orientation: from-image;
 }
 .row {
   width: 100%;
@@ -83,6 +84,7 @@ img{
 #galaxy:hover{
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
 .row{
   padding-top: 2%;
   padding-bottom: 2%;
