@@ -127,6 +127,13 @@ img{
 }
 .case1{
   background: url("https://stylewhack.com/wp-content/uploads/2017/01/07b37d9e8af59caf15b0f8e1b49da368.jpg");
+
+}
+.case2 h1{
+  color:white;
+}
+.case2 p{
+  color:white;
 }
 .case2{
   background: url("https://wallpaperstock.net/wallpapers/thumbs1/51439hd.jpg");
