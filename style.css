@@ -94,6 +94,9 @@ img{
 #galaxy:hover{
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+#post1{
+  align-content: center;
+}
 
 .row{
   padding-top: 2%;
@@ -127,7 +130,9 @@ img{
 }
 .case1{
   background: url("https://stylewhack.com/wp-content/uploads/2017/01/07b37d9e8af59caf15b0f8e1b49da368.jpg");
-
+}
+.case1 a{
+  align-content: center;
 }
 .post1{
 
