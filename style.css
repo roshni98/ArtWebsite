@@ -149,15 +149,16 @@ img{
 }
 .case2{
   background-image: url("https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/Screen%20Shot%202018-02-10%20at%205.40.48%20PM.png");
-  background-size: inherit 100%;
-  padding-bottom:30%; 
-  background-repeat:repeat-y */;
-  /* color: #8183b5; */
+  background-size: cover;
+  padding-bottom:30%;
+  background-repeat:no-repeat;
+  background-color: #bf9dba;
   /* height: in; */
 }
 
-
-
+.case2 center{
+    padding-bottom: 10%;
+}
 
 .case3{
   background: url("https://assets.teenvogue.com/photos/57bf3d739b60a7db09380cb3/master/pass/whatsapp-phone-number.jpg");
