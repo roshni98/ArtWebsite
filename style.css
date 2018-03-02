@@ -131,10 +131,13 @@ img{
 .case1{
   background-image: url("https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/iphoneX.png");
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat:repeat-y;
   /* background-image: url("https://stylewhack.com/wp-content/uploads/2017/01/07b37d9e8af59caf15b0f8e1b49da368.jpg"); */
   background-size: inherit 100%;
   padding-bottom: 30%;
+}
+.case1 h1{
+  color: white;
 }
 .case1 a{
   align-content: center;
