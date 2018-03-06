@@ -96,8 +96,8 @@ img{
 }
 #post1{
   /* align-content: center; */
-  padding-left: 10%;
-  padding-top: 10%;
+  /* padding-left: 10%; */
+  /* padding-top: 10%; */
 }
 
 .row{
@@ -131,7 +131,7 @@ img{
   padding-right: -20%;
 }
 .case1{
-  background-image: url("https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/iphoneX.png");
+  background-image: url("https://raw.githubusercontent.com/roshni98/ArtWebsite/master/images/left-iphoneX.png");
   background-size: cover;
   background-repeat:repeat-y;
   /* background-image: url("https://stylewhack.com/wp-content/uploads/2017/01/07b37d9e8af59caf15b0f8e1b49da368.jpg"); */
@@ -142,12 +142,12 @@ img{
   color: white;
 }
 .case1 a{
-  padding-left: 10%;
-  padding-top: 10%;
+  /* padding-left: 10%; */
+  /* padding-top: 10%; */
 }
-.post1{
-
-
+.btn-primary{
+  margin-left: 15%;
+  margin-top: 8%;
 }
 /* .firstpage .row .list a{
   font-family: Georgia sans-serif;
